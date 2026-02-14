@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <title>Contact ALOMAYTRI – Mayotte | Demande d’information & projets déchets</title>
+  <meta name="description" content="Contactez ALOMAYTRI à Mayotte (976) pour vos projets de tri, valorisation des déchets et économie circulaire. Réponse rapide, demande d’information ou prise de contact." />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Canonical (à remplacer par ton domaine) -->
+  <link rel="canonical" href="https://example.com/contact.html" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="index.html" aria-label="Accueil ALOMAYTRI">
+          <img class="brand-logo" src="assets/img/logo-alomaytri.png" alt="Logo ALOMAYTRI">
+          <span class="brand-text">
+            <strong>ALOMAYTRI</strong>
+            <em>Tri • Valorisation • Économie circulaire — Mayotte</em>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a>
+          <a href="activites.html">Activités</a>
+          <a href="approche.html">Approche</a>
+          <a class="btn btn-primary is-active" href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO CONTACT -->
+    <!-- HERO CONTACT (version simplifiée) -->
+    <section class="page-hero" id="intro-contact">
+        <div class="container">
+            <div class="page-hero-simple">
+            <div class="section-kicker">Contact • Mayotte • Projets déchets</div>
+
+            <h1 class="page-title">Contactez ALOMAYTRI</h1>
+
+            <p class="page-lead">
+                Une question, un besoin, un projet ? Écrivez-nous : nous vous recontactons au plus vite.
+                ALOMAYTRI accompagne les acteurs publics et privés à Mayotte sur le tri,
+                la valorisation des déchets et l’économie circulaire.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#formulaire">Envoyer un message</a>
+                <a class="btn btn-secondary" href="#coordonnees">Voir nos coordonnées</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT GRID -->
+    <section class="section" id="formulaire">
+      <div class="container">
+        <h2 class="section-title">Nous écrire</h2>
+
+        <div class="contact-grid">
+          <!-- FORM -->
+          <section class="card contact-card" aria-label="Formulaire de contact">
+            <h3 class="contact-card-title">Formulaire</h3>
+            <p class="contact-card-lead">
+              Décrivez votre besoin (collectivité, entreprise, projet, volume, nature des déchets, etc.).
+            </p>
+
+            <!--
+              Astuce: pour un site statique, tu peux brancher ce formulaire sur:
+              - Formspree / Netlify Forms / Azure Static Web Apps + Function
+              Pour l’instant, il fonctionne en HTML (sans envoi).
+            -->
+            <form class="contact-form" action="#" method="post">
+              <div class="form-row">
+                <label for="nom">Nom <span aria-hidden="true">*</span></label>
+                <input id="nom" name="nom" type="text" autocomplete="name" required>
+              </div>
+
+              <div class="form-row">
+                <label for="organisation">Organisation</label>
+                <input id="organisation" name="organisation" type="text" autocomplete="organization">
+              </div>
+
+              <div class="form-row form-row-2">
+                <div>
+                  <label for="email">Email <span aria-hidden="true">*</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div>
+                  <label for="tel">Téléphone</label>
+                  <input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label for="sujet">Sujet <span aria-hidden="true">*</span></label>
+                <select id="sujet" name="sujet" required>
+                  <option value="" selected disabled>Choisir un sujet</option>
+                  <option>Demande d’information</option>
+                  <option>Projet tri / valorisation</option>
+                  <option>Économie circulaire</option>
+                  <option>Partenariat</option>
+                  <option>Autre</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="6" required
+                  placeholder="Décrivez votre besoin : contexte, type de déchets, contraintes, localisation, délai..."></textarea>
+              </div>
+
+              <div class="form-row form-consent">
+                <input id="rgpd" name="rgpd" type="checkbox" required>
+                <label for="rgpd">
+                  J’accepte que mes informations soient utilisées pour me recontacter dans le cadre de ma demande.
+                </label>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Envoyer</button>
+                <a class="btn btn-secondary" href="activites.html">Voir nos activités</a>
+              </div>
+
+              <p class="form-note">
+                <span aria-hidden="true">ℹ️</span>
+                Pour une urgence : contactez-nous par téléphone.
+              </p>
+            </form>
+          </section>
+
+          <!-- INFOS + MAP -->
+          <section class="contact-side" aria-label="Coordonnées et localisation">
+            <!-- Coordonnées -->
+            <div class="card contact-info" id="coordonnees">
+              <h3 class="contact-card-title">Coordonnées</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-ico" aria-hidden="true">📧</span>
+                  <div>
+                    <strong>Email</strong>
+                    <a href="mailto:contact@alomayjob.com">contact@alomayjob.com</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-ico" aria-hidden="true">📞</span>
+                  <div>
+                    <strong>Téléphone</strong>
+                    <a href="tel:+262639613839">+262 6 39 61 38 39</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-ico" aria-hidden="true">📍</span>
+                  <div>
+                    <strong>Localisation</strong>
+                    <span>Mayotte (976)</span>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="contact-mini">
+                <div class="mini-item">
+                  <strong>Réponse</strong>
+                  <span>au plus vite</span>
+                </div>
+                <div class="mini-item">
+                  <strong>Public</strong>
+                  <span>acteurs publics & privés</span>
+                </div>
+                <div class="mini-item">
+                  <strong>Domaines</strong>
+                  <span>tri • valorisation • économie circulaire</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carte -->
+            <div class="card contact-map" id="carte" aria-label="Carte de localisation">
+              <h3 class="contact-card-title">Localisation</h3>
+
+              <!-- Option A (recommandée) : iframe Google Maps (remplace le src) -->
+              <div class="map-embed" role="region" aria-label="Carte">
+                <!-- Remplace l’URL par ton embed Google Maps ou OpenStreetMap -->
+                <iframe
+                  title="Carte — Mayotte"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=Mayotte&output=embed">
+                </iframe>
+              </div>
+
+              <p class="map-note">
+                <span aria-hidden="true">ℹ️</span>
+                L’adresse détaillée pourra être précisée après premier échange.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="card card--accent-blue">
+          <h2 class="section-title">Vous avez un projet à Mayotte ?</h2>
+          <p>
+            ALOMAYTRI accompagne la mise en place de solutions adaptées au territoire :
+            tri des déchets, valorisation et démarches d’économie circulaire.
+          </p>
+          <div class="hero-actions" style="margin-top:12px;">
+            <a class="btn btn-primary" href="#formulaire">Écrire un message</a>
+            <a class="btn" href="approche.html">Découvrir notre approche</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER commun groupe -->
+  <footer aria-label="Pied de page ALOMAYJOB Holding" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img alt="Logo ALOMAYJOB Holding" class="footer-logo" loading="lazy" src="assets/img/logo_lvd_footer.png"/>
+        <p>
+          ALOMAYTRI, filiale du groupe ALOMAYJOB — tri et valorisation des déchets,
+          économie circulaire et activités industrielles au service de l’environnement à Mayotte.
+        </p>
+      </div>
+
+      <nav aria-label="Liens utiles" class="footer-nav">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="activites.html">Activités</a></li>
+          <li><a href="approche.html">Approche</a></li>
+          <li><a href="contact.html" class="is-active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="icon">📧</i> <a href="mailto:contact@alomayjob.com">contact@alomayjob.com</a></li>
+          <li><i class="icon">📞</i> <a href="tel:+262639613839">+262 6 39 61 38 39</a></li>
+          <li><i class="icon">📍</i> Mayotte (976)</li>
+        </ul>
+
+        <div class="contact-social">
+          <h3>Réseaux</h3>
+          <ul class="social-links social-inline">
+            <li>
+              <a aria-label="LinkedIn ALOMAYJOB" href="https://www.linkedin.com/company/alomayjob-groupe/">
+                <img alt="Logo LinkedIn" class="social-icon" src="assets/img/social/logo_linkedin_trans.png"/>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a aria-label="Facebook ALOMAYJOB" href="https://www.facebook.com/share/17KdvGcfxf/?mibextid=wwXIfr">
+                <img alt="Logo Facebook" class="social-icon" src="assets/img/social/logo_facebook.png"/>
+                Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Groupe ALOMAYJOB — Tous droits réservés</p>
+      <p>
+        <a href="/open-legal" data-legal="/assets/legal/mentions-legales.html">Mentions légales</a> ·
+        <a href="/open-legal" data-legal="/assets/legal/politique_confidentialite.html">Politique de confidentialité</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
