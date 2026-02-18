@@ -1,5 +1,5 @@
 const actu = document.getElementById('actu');
-const ImageSrc = "assets/imgTmp/download.jpg"
+const ImageSrc = "/assets/imgTmp/download.jpg"
 
 const path = "/"
 const Elemnt = `
